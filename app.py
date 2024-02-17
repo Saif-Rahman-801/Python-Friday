@@ -53,8 +53,46 @@ print(10 % 3) # returns remaider """
 
 # Math function
 
-print(round(2.9))
-print(abs(-2.9))
+""" print(round(2.9))
+print(abs(-2.9)) """
+
+""" is_hot = False
+is_cold = False
+
+if is_hot:
+    print("It's a hot day")
+elif is_cold:
+    print("It's a cold day")
+else:
+    print("It's a lovely day")
+print("Enjoy your day") """
+
+""" price = 100000
+has_good_credit = False
+
+if has_good_credit:
+    down_payment = 0.1 * price
+else:
+    down_payment = 0.2 * price
+print(f"Down payment {down_payment}") """
+
+
+# Logical operators
+""" has_goodCredit = True
+has_high_income = True
+
+if has_goodCredit and not has_high_income:
+    print("Eligible for loan")
+else:
+    print("not eligible") """
+
+name = "Jaco"
+if len(name) > 4:
+    print("Name must be in 4 characters")
+elif len(name) <= 2: 
+    print("name should be greater than 2 characters")
+else:
+    print("Your names fine")
 
 
 
